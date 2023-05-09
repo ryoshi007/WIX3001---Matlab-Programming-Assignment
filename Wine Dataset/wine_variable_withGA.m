@@ -1,0 +1,1 @@
+[population, fitness_score, progress] = wine_run_ann_withGA();

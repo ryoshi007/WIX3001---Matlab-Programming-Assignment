@@ -1,0 +1,1 @@
+[population, fitness_score, progress] = student_run_ann_withGA();
