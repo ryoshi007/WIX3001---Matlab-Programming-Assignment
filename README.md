@@ -2,7 +2,7 @@
 
 Welcome to the `WIX3001 - Matlab Programming Assignment` repository! This project is developed by **Wong Yan Jian** (Matric Number: U2102753) from the Bachelor of Data Science program at Universiti Malaya. 🎓🌟
 
-The main goal of this assignment is to utilize a **Genetic Algorithm** to optimize a **Neural Network** for predicting the output of three databases: Wine Recognition 🍷, Student and Academic Performance 📈, and Car Evaluation 🚗. 
+The main goal of this assignment is to utilize a **Genetic Algorithm** to optimize a **Neural Network** for predicting the output of three databases: Wine Recognition 🍷, Students' Dropout & Academic Success 📈, and Car Evaluation 🚗. 
 
 ## Contents 📖
 
