@@ -29,6 +29,27 @@ Moreover, other methods have been explored to test the code performance, such as
 - Rank-Based Selection 📊
 - Selection Based on Random Permutation 🔀
 
+## Additional Improvements (Updates) 🆕
+
+The overall performance of genetic algorithm could be enhanced by normalizing the features using z-score normalization. This helps to standardize the range of the independent variables or features, leading to better performance of machine learning models. The code of the orignal files `run_ann_withGA` could be updated as follow:
+
+```matlab
+% load dataset
+data = dlmread('student_academic_success.csv');
+
+X = data(:, 1:end-1); % assuming all columns are attributes
+Y = data(:, end); % except for the last column for labels
+
+% Calculate the mean and standard deviation for each feature
+mean_values = mean(X);
+std_values = std(X);
+
+% Normalize the features using z-score normalization
+X = (X - mean_values) ./ std_values;
+
+% rest of the code
+```
+
 ## How to Use 💻
 
 The code is designed to work with any dataset, as long as the following conditions are met:
